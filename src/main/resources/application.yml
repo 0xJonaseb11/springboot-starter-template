@@ -3,7 +3,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/ne
     driver-class-name: org.postgresql.Driver
     username: postgres
-    password: nzabera2006
+    password: sebera
 
   flyway:
     enabled: true
@@ -27,7 +27,7 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 465
-    username: nzaberamikepeter@gmail.com
+    username: jonassebera@gmail.com
     password: qekanznywuqxmcls
     properties:
       mail:
@@ -61,8 +61,7 @@ application:
 server:
   servlet:
     context-path: /api/v1
-  port:
-    8000
+  port: 8000
 
 springdoc:
   default-consumes-media-type: application/json

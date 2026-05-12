@@ -1,4 +1,4 @@
-package com.mikepn.template;
+package com.jonas.template;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
